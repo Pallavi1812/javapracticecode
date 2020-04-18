@@ -60,23 +60,5 @@ abstract class declareMethods{
 	abstract void provideValue(float passkey);
 }
 
-class defineMethods extends declareMethods{
-	
-	 void provideValue(String username) {
-   	 System.out.println("Login with Username successfully");
-   	 
-    }
-    
-      void provideValue(int OTP) {
-   	   System.out.println("Login with OTP successfully");
-   	 
-    }
 
-     void provideValue(float passkey) {
-       	 System.out.println("Login with passkey successfully");
-	 
-         }
-	
-	
-}
 
